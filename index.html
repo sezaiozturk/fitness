@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Fitness Rehberim</title>
+        <link 
+            href="./style.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="head-container">
+                Fitness Nedir ?
+            </div>
+            <div class="body-container">
+                <div class="inner-container">
+                    <div class="description">
+                        <p>
+                            Fitness denince aklımıza insanların sağlıklı ve formda olmak için yaptığı egzersizler,
+                            sağlıklı yaşam alışkanlıkları geliyor. Ayrıca fitness bir <b>spor branşı</b>, yani insanların
+                            ne kadar formda olduğunu podyumda gösterdiği, formunu geliştirmek için de spor salonlarında
+                            egzersiz makineleri veya ağırlıklarla çalıştığı bir branş.
+                        </p>
+                        Bugünlerde spor salonu, internet,TV dizileri gibi birçok yerde <strong>“fit olmak”</strong> veya
+                        <strong>“fitness”</strong> tabiri çok sık kullanılıyor. Fakat 
+                        yukarıdaki tanımın ötesinde, fit olmayı estetik görünen kas yapma, düşük yağ oranı veya selülitleri
+                        olmayan bacaklardan ibaret sanmamalıyız!‘Fit olma’ tanımı aslında ilk olarak şu şekilde yapılmıştır:
+                        “Bir organizmanın çevre şartlarına uygunluk derecesi ve neslini sürdürebilmesi’’.Yani bu tanıma
+                        baktığımız zaman aslında fitness yalnızca sandığımız gibi estetik kaslar, düşük yağ oranı ve
+                        güzel görünümden ibaret değildir, çok daha fazlasıdır!
+                    </div>
+                    <div class="img-container">
+                        <img
+                            src="./charecter.gif"
+                        />
+                    </div>
+                </div>
+                <div class="form-container">
+                    <div class="question">
+                        Spora başlıyacak mısınız?
+                    </div>
+                    <div class="button-container">
+                        <button 
+                            class="button"
+                            onclick="yesButton()"
+                        >
+                            Evet
+                        </button>
+                        <button 
+                            class="button"
+                            onclick="noButton()"
+                        >
+                            Hayır
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function yesButton(){
+                alert("Tebrikler protein tozu kazandınız!!!");
+            }
+            function noButton(){
+                alert("Şişman kalmaya devam edin!!!");
+            }
+        </script>
+    </body>
+</html>
